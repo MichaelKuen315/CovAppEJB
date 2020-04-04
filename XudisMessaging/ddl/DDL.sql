@@ -1,0 +1,7 @@
+-- MySQL 
+CREATE TABLE `MESSAGE` (
+  `id`       int(11) NOT NULL AUTO_INCREMENT,
+  `message`  longtext,
+  
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci5.9.141.202;
